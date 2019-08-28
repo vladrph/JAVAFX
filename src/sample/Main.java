@@ -72,12 +72,14 @@ public class Main extends Application {
             }
         });
 
+
        // Scene scene = new Scene(grid, 300, 275);
         primaryStage.setScene(scene);
         scene.getStylesheets().add
                 (Main.class.getResource("Background.css").toExternalForm());
         primaryStage.show();
     }
+
 
 
     public static void main(String[] args) {
